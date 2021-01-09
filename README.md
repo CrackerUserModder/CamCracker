@@ -1,6 +1,6 @@
 # CamCracker
-Grab cam shots from target's phone front camera or PC webcam just sending a link.
-![cheese](https://media.discordapp.net/attachments/790798410411802674/797518314153967656/Screenshot_2021-01-09_14_21_51.png?width=690&height=388)
+Tire fotos da câmera frontal do telefone do alvo ou da webcam do PC apenas enviando um link.
+![cam](https://media.discordapp.net/attachments/790798410411802674/797518314153967656/Screenshot_2021-01-09_14_21_51.png?width=690&height=388)
 
 # What is CamPhish?
 <p>CamPhish is techniques to take cam shots of target's phone fornt camera or PC webcam. CamPhish Hosts a fake website on in built PHP server and uses ngrok & serveo to generate a link which we will forward to the target, which can be used on over internet. website asks for camera permission and if the target allows it, this tool grab camshots of target's device</p>
