@@ -15,10 +15,6 @@ printf "\e[1;92m ██║ ╚═╝ ██║╚██████╔╝██�
 printf "\e[1;92m ╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝\e[0m\n"
 printf "\e[1;92m              Desenvolvedor: Poxah Modder\e[0m\n\n"
 
-
-
-printf " \e[1;77m www.poxah.net | instagram.com/dev.modder \e[0m \n"
-
 printf "\n"
 
 
