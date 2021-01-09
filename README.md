@@ -2,18 +2,18 @@
 Tire fotos da câmera frontal do telefone do alvo ou da webcam do PC apenas enviando um link.
 ![cam](https://media.discordapp.net/attachments/790798410411802674/797518314153967656/Screenshot_2021-01-09_14_21_51.png?width=690&height=388)
 
-# What is CamPhish?
-<p>CamPhish is techniques to take cam shots of target's phone fornt camera or PC webcam. CamPhish Hosts a fake website on in built PHP server and uses ngrok & serveo to generate a link which we will forward to the target, which can be used on over internet. website asks for camera permission and if the target allows it, this tool grab camshots of target's device</p>
+# O que é CamCracker?
+<p>CamCracker São técnicas para tirar fotos da câmera do telefone do alvo ou da webcam do PC. CamPhish hospeda um site falso em um servidor PHP integrado e usa ngrok & serveo para gerar um link que encaminharemos para o destino, que pode ser usado na Internet. o site pede permissão para a câmera e, se o alvo permitir, esta ferramenta captura imagens do dispositivo do alvo</p>
 
-## Features
-<p>In this tool I added two automatic webpage templates for engaged target on webpage to get more picture of cam</p>
+## Característicos
+<p>Nesta ferramenta, adicionei dois modelos de página da web automáticos para o alvo engajado na página da web para obter mais imagens da cam</p>
 <ul>
-  <li>Festival Wishing</li>
-  <li>Live YouTube TV</li>
+  <li>Desejo do Festival</li>
+  <li>YouTube TV ao vivo</li>
 </ul>
-<p>simply enter festival name or youtube's video ID</p>
+<p>basta inserir o nome do festival ou o ID do vídeo do youtube</p>
 
-## This Tool Tested On :
+## Esta ferramenta foi testada em:
 <ul>
   <li>Kali Linux</li>
   <li>Termux</li>
@@ -22,22 +22,20 @@ Tire fotos da câmera frontal do telefone do alvo ou da webcam do PC apenas envi
   <li>Perrot Sec OS</li>
 </ul>
 
-# Installing and requirements
-<p>This tool require PHP for webserver, SSH or serveo link. First run following command on your terminal</p>
+# Iinstalação e requisitos
+<p>Esta ferramenta requer PHP para servidor web, SSH ou link de serviço. Primeiro execute o seguinte comando em seu terminal</p>
 
 ```
 apt-get -y install php openssh git wget
 ```
 
-## Installing (Kali Linux/Termux):
+## Instalando (Kali Linux / Termux):
 
 ```
-git clone https://github.com/techchipnet/CamPhish
-cd CamPhish
-bash camphish.sh
+git clone https://github.com/CrackerUserModder/CamCracker
+cd CamCracker
+bash CamCracker.sh
 ```
-### Video Demo
-[![How to control android camera](https://img.youtube.com/vi/G_nNHrWwCOM/0.jpg)](https://www.youtube.com/watch?v=G_nNHrWwCOM)
-#### For More Video subcribe <a href="http://youtube.com/techchipnet">TechChip YouTube Channel</a>
-<p>CamPhish is created to help in penetration testing and it's not responsible for any misuse or illegal purposes.</p>
-<p>CamPhish is inspired by https://github.com/thelinuxchoice/ Big thanks to @thelinuxchoice</p>
+### Aviso
+<p>CamCracker foi criado para ajudar nos testes de penetração e não é responsável por qualquer uso indevido ou fins ilegais.</p>
+<p>CamCracker é inspirado por https://github.com/thelinuxchoice/ Muito obrigado a @thelinuxchoice</p>
